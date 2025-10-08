@@ -1,23 +1,16 @@
 {
-  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "root": true,
-  "files": {
-    "includes": [
-      "**",
-      "!**/dist/**/*",
-      "!**/public/**/*",
-      "!.changeset/**/*.md",
-      "!.nx/**/*",
-      "!.idea/**/*"
-    ]
-  },
-  "formatter": {
-    "enabled": true
-  },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": true
-    }
-  }
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"root": true,
+	"files": {
+		"includes": ["**", "!**/dist/**/*", "!**/public/**/*", "!.idea/**/*"]
+	},
+	"formatter": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	}
 }
