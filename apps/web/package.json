@@ -8,6 +8,7 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "biome lint . --reporter=github",
+		"check": "biome check . --reporter=github",
 		"check-types": "tsc --noEmit"
 	},
 	"dependencies": {
